@@ -31,3 +31,16 @@ article:nth-child(0){
 article:nth-child(1){
   grid-area: item-2;
 }
+/*Footer tag childs*/
+footer:nth-child(0){
+  grid-area: footer-item-1;
+}
+footer:nth-child(1){
+  grid-area: footer-item-2;
+}
+footer:nth-child(2){
+  grid-area: footer-item-3;
+}
+footer:nth-child(3){
+  grid-area: footer-item-4;
+}

@@ -1,0 +1,115 @@
+/***Navigation Layout***/
+nav {
+  background-color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+.nav-navbar ul {
+  display: flex;
+  justify-content: start;
+}
+.nav-navbar ul a {
+  padding: 1rem;
+  color: rgb(120, 120, 120);
+}
+/***Main Layout***/
+main {
+  display: grid;
+  grid-template-areas: 'aside article article article article';
+  gap: 0.5rem;
+  padding: 2rem;
+}
+/***Aside common styles***/
+aside > div {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+aside ul {
+  padding: 0;
+  margin-top: 1rem;
+}
+aside ul li {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+/***Aside Components Style***/
+.search-item {
+  padding: 0;
+  border-radius: 30px;
+}
+.search-item input[type='search'] {
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+}
+.catagories-item ul li{
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+.catagories-item ul li a {
+  font-size: medium;
+  color: black;
+}
+.top-posts-item ul li {
+  border-left: 2px solid rgb(230, 230, 230);
+}
+.top-posts-item ul li a h5 {
+  font-size: large;
+  color: black;
+}
+.top-posts-item ul li a span {
+  font-size: small;
+  color: gray;
+}
+.social-media-item .social-media-images {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-areas: '1 2';
+  gap: 1rem;
+}
+/***Article Layout***/
+article {
+  display: grid;
+  grid-template-areas: 'item-1 item-2';
+  gap: 1rem;
+  align-items: flex-start;
+  align-self: flex-start;
+  align-content: flex-start;
+  padding: 0 1rem;
+}
+/***Card Style***/
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 420px;
+  overflow: hidden;
+}
+.card-body,
+.card-footer {
+  padding: 1rem;
+}
+.card-body span {
+  font-size: small;
+  color: gray;
+}
+.card-body h2 {
+  margin: 1rem 0;
+  font-size: larger;
+}
+.card-body p {
+  font-size: medium;
+}
+.card-footer a {
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: rgb(80, 80, 255);
+  color: #fff;
+}

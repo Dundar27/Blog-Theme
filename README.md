@@ -1,3 +1,3 @@
-# Blog-Teması
+# Blog-Temalı Sayfa Tasarımı
 
 Bu sayfa [Davut Burak Dündar] tarafından oluşturulmuştur.

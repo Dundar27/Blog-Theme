@@ -51,7 +51,7 @@ aside ul li {
   border: none;
   border-radius: 30px;
 }
-.catagories-item ul li{
+.catagories-item ul li {
   border-bottom: 1px solid rgb(240, 240, 240);
 }
 .catagories-item ul li a {
@@ -77,13 +77,15 @@ aside ul li {
 }
 /***Article Layout***/
 article {
+  padding: 0 1rem;
+}
+.card-items {
   display: grid;
   grid-template-areas: 'item-1 item-2';
   gap: 1rem;
   align-items: flex-start;
   align-self: flex-start;
   align-content: flex-start;
-  padding: 0 1rem;
 }
 /***Card Style***/
 .card {
@@ -111,5 +113,19 @@ article {
   padding: 0.5rem;
   border-radius: 5px;
   background-color: rgb(80, 80, 255);
+  color: #fff;
+}
+/***Buttons***/
+.buttons-group{
+  margin-top: 1rem;
+}
+.buttons-group button[type=menu]{
+  background-color: #fff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+.active{
+  background-color: rgb(80, 80, 255) !important;
   color: #fff;
 }

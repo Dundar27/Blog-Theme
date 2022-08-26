@@ -14,7 +14,7 @@
   box-shadow: -6px 6px 5px rgb(185, 185, 185);
 }
 .card-footer a:hover{
-  background-color: rgb(50, 50, 253);
+  background-color: rgb(50, 50, 255);
   box-shadow: -3px 3px 5px rgb(185, 185, 185);
   transition: all 0.2s;
 }
@@ -22,4 +22,11 @@
 .buttons-group button[type=menu]:hover{
   transform: scale(105%);
   box-shadow: -2px 2px 3px rgb(185, 185, 185);
+}
+/*Footer links hover action*/
+footer a:hover{
+  color: rgb(80, 80, 255);
+}
+footer ul li:hover{
+  color: rgba(50, 50, 255, 0.9);
 }

@@ -5,28 +5,28 @@
   transition: all 0.6s;
 }
 /*Top blog posts links*/
-.top-posts-item ul li:hover{
+.top-posts-item ul li:hover {
   border-left: 2px solid rgb(80, 80, 255);
   transition: all 0.4s;
 }
 /*Blog posts card hover action*/
-.card:hover{
+.card:hover {
   box-shadow: -6px 6px 5px rgb(185, 185, 185);
 }
-.card-footer a:hover{
+.card-footer a:hover {
   background-color: rgb(50, 50, 255);
   box-shadow: -3px 3px 5px rgb(185, 185, 185);
   transition: all 0.2s;
 }
 /*Bottom buttons for hover action*/
-.buttons-group button[type=menu]:hover{
+.buttons-group button[type='menu']:hover {
   transform: scale(105%);
   box-shadow: -2px 2px 3px rgb(185, 185, 185);
 }
 /*Footer links hover action*/
-footer a:hover{
+footer a:hover {
   color: rgb(80, 80, 255);
 }
-footer ul li:hover{
-  color: rgba(50, 50, 255, 0.9);
+footer .links ul li:hover {
+  color: rgba(50, 50, 255, 0.8);
 }

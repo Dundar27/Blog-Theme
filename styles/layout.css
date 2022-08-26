@@ -116,53 +116,56 @@ article {
   color: #fff;
 }
 /***Buttons Style***/
-.buttons-group{
+.buttons-group {
   margin-top: 1rem;
 }
-.buttons-group button[type=menu]{
+.buttons-group button[type='menu'] {
   background-color: #fff;
   padding: 0.5rem;
   border: none;
   border-radius: 5px;
 }
-.active{
+.active {
   background-color: rgb(80, 80, 255) !important;
   color: #fff;
 }
 /***Footer Layout***/
-footer{
+footer {
   background-color: #fff;
   padding: 1rem;
-  display: grid;
-  grid-template-areas: 'footer-item-1 footer-item-2 footer-item-3';
-  gap: 1rem;
+  display: flex;
+  justify-content: space-around;
 }
 /**Footer Common Styles***/
-footer>div{
+footer > div {
   padding: 1rem;
 }
-.footer-item-1 h1, .footer-item-2 h3, .footer-item-3 h3{
+.footer-item-1 h1,
+.footer-item-2 h3,
+.footer-item-3 h3 {
   font-size: larger;
   margin-bottom: 1.5rem;
 }
-.footer-item-1 div a, .footer-item-3 div a{
-  font-size: small;
+.footer-item-1 div a,
+.footer-item-2 .links ul li,
+.footer-item-3 div a {
+  font-size: medium;
   color: gray;
 }
-.footer-item-1 div a i, .footer-item-3 div a{
+.footer-item-1 div a i,
+.footer-item-3 div a {
   margin-right: 1rem;
 }
 /***Footer Component Styles***/
-.footer-item-2 .links ul li{
-  font-size: medium;
+.footer-item-2 .links ul li {
   font-weight: 500;
-  color: gray;
-  margin: 0.5rem 0; 
+  margin: 0.5rem 0;
 }
-.footer-item-3 .footer-social-media{
+.footer-item-3 .footer-social-media {
   display: flex;
   margin-top: 1rem;
 }
-.footer-item-3 .footer-social-media a i{
+.footer-item-3 .footer-social-media a i {
   font-size: 36px;
+  background-color: #fff;
 }

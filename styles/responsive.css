@@ -1,0 +1,29 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /*Navbar layout*/
+  nav {
+    padding: 0.5rem;
+  }
+  nav .nav-title a {
+    font-size: small;
+  }
+  .nav-navbar ul a {
+    padding: 0.5rem;
+  }
+  /*Main layout*/
+  main {
+    display: block;
+  }
+  /***Aside common styles***/
+  aside > div {
+    margin-bottom: 1rem;
+  }
+  aside ul {
+    display: none;
+  }
+  aside .top-posts-item{
+    display: none;
+  }
+  aside .social-media-item .social-media-images{
+    display: none;
+  }
+}

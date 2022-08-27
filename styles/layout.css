@@ -111,16 +111,17 @@ article {
 }
 .card-body h2 {
   margin: 1rem 0;
-  font-size: larger;
+  font-size: large;
 }
 .card-body p {
-  font-size: small;
+  font-size: smaller;
 }
 .card-footer a {
   padding: 0.5rem;
   border-radius: 5px;
   background-color: rgb(80, 80, 255);
   color: #fff;
+  font-size: small;
 }
 /***Buttons Style***/
 .buttons-group {

@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 798px) {
   /******************Navbar******************/
   nav .nav-title a {
     font-size: small;
@@ -11,7 +11,7 @@
     display: block;
   }
   /*****
-  'Aside' etiketi altındaki tüm 'ul' elemanlarının 'display' özelliğini 'none' yapabilirsiniz yada javascript kullanırken daha kolay olması adına her biri 'ul' için ayrı ayrı 'display' özelliğini 'none' yapabilirsiniz.
+  You can set the 'display' property of all 'ul' elements under the 'aside' tag to 'none' or set the 'display' property to 'none' for each 'ul' for easier handling when using javascript.
   *****/
   aside > div {
     margin-bottom: 1rem;
@@ -44,7 +44,4 @@
   footer {
     display: block;
   }
-}
-@media screen and (min-width: 769px) and (max-width: 1023px){
-  
 }

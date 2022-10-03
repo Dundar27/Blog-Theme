@@ -1,10 +1,11 @@
 /*Navbar links*/
 .nav-navbar ul a:hover {
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(235, 235, 235);
   border-radius: 10px;
   transition: all 0.6s;
 }
 /*Top blog posts links*/
+.catagories-item ul li:hover,
 .top-posts-item ul li:hover {
   border-left: 2px solid rgb(80, 80, 255);
   transition: all 0.4s;
@@ -12,6 +13,8 @@
 /*Blog posts card hover action*/
 .card:hover {
   box-shadow: -6px 6px 5px rgb(185, 185, 185);
+  transform: scale(103%);
+  transition: all 0.4s;
 }
 .card-footer a:hover {
   background-color: rgb(50, 50, 255);
@@ -19,7 +22,7 @@
   transition: all 0.2s;
 }
 /*Bottom buttons for hover action*/
-.buttons-group button[type='menu']:hover {
+.buttons-group button[type="menu"]:hover {
   transform: scale(105%);
   box-shadow: -2px 2px 3px rgb(185, 185, 185);
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -17,14 +18,17 @@
     <link rel="stylesheet" href="./styles/grid-area-names.css" />
     <link rel="stylesheet" href="./styles/responsive.css" />
 
+    <!--Scripts-->
+    <script src="./script.js"></script>
+    <!--Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
     <!--Font Awesome-->
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   </head>
+
   <body>
     <nav>
       <div class="nav-title">
@@ -34,9 +38,15 @@
       </div>
       <div class="nav-navbar">
         <ul>
-          <a href="#"><li>Home</li></a>
-          <a href="#"><li>Blog</li></a>
-          <a href="#"><li>Contact</li></a>
+          <a href="#">
+            <li>Home</li>
+          </a>
+          <a href="#">
+            <li>Blog</li>
+          </a>
+          <a href="#">
+            <li>Contact</li>
+          </a>
         </ul>
       </div>
     </nav>
@@ -47,34 +57,34 @@
           <input type="search" placeholder="Search..." />
         </div>
         <div class="catagories-item">
-          <h3>Catagories <i class="fas fa-arrow-down"></i></h3>
-          <ul>
+          <h3>Catagories <i class="fas fa-arrow-down catagoriesListIcon"></i></h3>
+          <ul class="catagoriesList">
             <li>
-              <a href="#"><h5>Maths</h5></a>
+              <h5>Maths</h5>
             </li>
             <li>
-              <a href="#"><h5>Tongue</h5></a>
+              <h5>Tongue</h5>
             </li>
             <li>
-              <a href="#"><h5>History</h5></a>
+              <h5>History</h5>
             </li>
             <li>
-              <a href="#"><h5>Geography</h5></a>
+              <h5>Geography</h5>
             </li>
             <li>
-              <a href="#"><h5>Physics</h5></a>
+              <h5>Physics</h5>
             </li>
             <li>
-              <a href="#"><h5>Chemical</h5></a>
+              <h5>Chemical</h5>
             </li>
             <li>
-              <a href="#"><h5>Biology</h5></a>
+              <h5>Biology</h5>
             </li>
           </ul>
         </div>
         <div class="top-posts-item">
-          <h3>Top Posts (5) <i class="fas fa-arrow-down"></i></h3>
-          <ul>
+          <h3>Top Posts (5) <i class="fas fa-arrow-down topPostListIcon"></i></h3>
+          <ul class="topPostList">
             <li>
               <a href="#">
                 <h5>The best math questions and answers</h5>
@@ -102,44 +112,26 @@
           </ul>
         </div>
         <div class="social-media-item">
-          <h3>Instagram<i class="fas fa-arrow-down"></i></h3>
+          <h3>Instagram<i class="fas fa-arrow-down socialMediaIcon"></i></h3>
 
           <div class="social-media-images">
             <a href="#">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(81).webp"
-                alt="Image not found"
-              />
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(81).webp" alt="Image not found" />
             </a>
             <a href="#">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(71).webp"
-                alt="Image not found"
-              />
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(71).webp" alt="Image not found" />
             </a>
             <a href="#">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(61).webp"
-                alt="Image not found"
-              />
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(61).webp" alt="Image not found" />
             </a>
             <a href="#">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(51).webp"
-                alt="Image not found"
-              />
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(51).webp" alt="Image not found" />
             </a>
             <a href="#">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(41).webp"
-                alt="Image not found"
-              />
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(41).webp" alt="Image not found" />
             </a>
             <a href="#">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(31).webp"
-                alt="Image not found"
-              />
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(31).webp" alt="Image not found" />
             </a>
           </div>
         </div>
@@ -150,10 +142,7 @@
           <!--Card Item-->
           <div class="card">
             <div class="card-header">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(21).webp"
-                alt="Image not found"
-              />
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(21).webp" alt="Image not found" />
             </div>
             <div class="card-body">
               <span>{Catagories} {Date}</span>
@@ -170,10 +159,7 @@
           <!--Card Item-->
           <div class="card">
             <div class="card-header">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(11).webp"
-                alt="Image not found"
-              />
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(11).webp" alt="Image not found" />
             </div>
             <div class="card-body">
               <span>{Catagories} {Date}</span>
@@ -190,10 +176,7 @@
           <!--Card Item-->
           <div class="card">
             <div class="card-header">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(28).webp"
-                alt="Image not found"
-              />
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(28).webp" alt="Image not found" />
             </div>
             <div class="card-body">
               <span>{Catagories} {Date}</span>
@@ -210,10 +193,7 @@
           <!--Card Item-->
           <div class="card">
             <div class="card-header">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(18).webp"
-                alt="Image not found"
-              />
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(18).webp" alt="Image not found" />
             </div>
             <div class="card-body">
               <span>{Catagories} {Date}</span>
@@ -230,10 +210,7 @@
           <!--Card Item-->
           <div class="card">
             <div class="card-header">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(38).webp"
-                alt="Image not found"
-              />
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(38).webp" alt="Image not found" />
             </div>
             <div class="card-body">
               <span>{Catagories} {Date}</span>
@@ -250,10 +227,7 @@
           <!--Card Item-->
           <div class="card">
             <div class="card-header">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(48).webp"
-                alt="Image not found"
-              />
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(48).webp" alt="Image not found" />
             </div>
             <div class="card-body">
               <span>{Catagories} {Date}</span>
@@ -291,10 +265,18 @@
         <h3>Abouth us</h3>
         <div class="links">
           <ul>
-            <a href="#"><li>Our History</li></a>
-            <a href="#"><li>Our Mission</li></a>
-            <a href="#"><li>Our Vision</li></a>
-            <a href="#"><li>Our Services</li></a>
+            <a href="#">
+              <li>Our History</li>
+            </a>
+            <a href="#">
+              <li>Our Mission</li>
+            </a>
+            <a href="#">
+              <li>Our Vision</li>
+            </a>
+            <a href="#">
+              <li>Our Services</li>
+            </a>
           </ul>
         </div>
       </div>
@@ -307,29 +289,31 @@
         </div>
 
         <div class="footer-social-media">
-          <a
-            href="https://www.facebook.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-facebook fa-2x"></i>
           </a>
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-instagram fa-2x"></i>
           </a>
-          <a
-            href="https://www.twitter.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-twitter fa-2x"></i>
           </a>
         </div>
       </div>
     </footer>
+    <script>
+      $(document).ready(function () {
+        $('.catagoriesListIcon').on('click', function () {
+          $('.catagoriesList').toggle();
+        })
+        $('.topPostListIcon').on('click', function () {
+          $('.topPostList').toggle();
+        })
+        $('.socialMediaIcon').on('click', function () {
+          $('.social-media-images').toggle();
+        })
+      })
+    </script>
   </body>
+
 </html>

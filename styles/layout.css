@@ -19,7 +19,7 @@ nav {
 /***Main Layout***/
 main {
   display: grid;
-  grid-template-areas: 'aside article article article article';
+  grid-template-areas: "aside article article article article";
   gap: 0.5rem;
   padding: 2rem;
 }
@@ -51,7 +51,7 @@ aside h3 i {
   padding: 0;
   border-radius: 30px;
 }
-.search-item input[type='search'] {
+.search-item input[type="search"] {
   width: 100%;
   padding: 1rem;
   outline: none;
@@ -60,6 +60,7 @@ aside h3 i {
 }
 .catagories-item ul li {
   border-bottom: 1px solid rgb(240, 240, 240);
+  border-left: 2px solid rgb(230, 230, 230);
 }
 .catagories-item ul li a {
   font-size: medium;
@@ -79,7 +80,7 @@ aside h3 i {
 .social-media-item .social-media-images {
   margin-top: 1rem;
   display: grid;
-  grid-template-areas: '1 2';
+  grid-template-areas: "1 2";
   gap: 1rem;
 }
 /***Article Layout***/
@@ -88,7 +89,7 @@ article {
 }
 .card-items {
   display: grid;
-  grid-template-areas: 'item-1 item-2';
+  grid-template-areas: "item-1 item-2";
   gap: 1rem;
   align-items: flex-start;
   align-self: flex-start;
@@ -127,7 +128,7 @@ article {
 .buttons-group {
   margin-top: 1rem;
 }
-.buttons-group button[type='menu'] {
+.buttons-group button[type="menu"] {
   background-color: #fff;
   padding: 0.5rem;
   border: none;
